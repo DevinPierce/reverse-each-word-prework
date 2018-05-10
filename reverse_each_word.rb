@@ -6,3 +6,8 @@ def reverse_each_word(str)
   end
   new_arr.join(' ')
 end
+
+def reverse_each_word(str)
+  arr = str.split(' ')
+  arr.collect { |word| word.reverse }
+end
